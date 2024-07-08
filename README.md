@@ -3,12 +3,6 @@ Neurotorch Manual
 Jonghyun Ko
 
 Please contact kofficial@naver.com for further information on Neurotorch.
-Table of Content
-1.	Introduction
-2.	Options
-3.	CIM Architecture, Schemes
-4.	Calculation Model
-
 
 1.	Introduction
 NeuroTorch is a simulator tool for system-level evaluation of compute-in-memory (CIM). NeuroTorch references NeuroSim but do not use external DRAM and weight gradient computation (WGC) units in CIM chip. Instead, NeuroTorch adopts Parallel Outer Product Update (POPU) Method for the on-chip training. Compared to the conventional on-chip training using the external DRAM and WGC units, the required hardware resources, such as area overhead, latency, and energy consumption, are much more reduced. 
